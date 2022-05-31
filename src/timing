@@ -1,0 +1,6 @@
+#!/bin/bash
+ gcc -std=c18 -O3 -Wall -Werror -lm $(cat ../sources) -o openseekmap
+ time echo "bosleentje lovendegem" | ./openseekmap ../data/belgie.data 
+ time echo "vrijheidstraat bruhe" | ./openseekmap ../data/belgie.data 
+ time echo "de sterre gent" | ./openseekmap ../data/belgie.data 
+ time echo "hoge bosstraat eeklo" | ./openseekmap ../data/belgie.data 
